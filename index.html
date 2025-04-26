@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portofolio Afriza</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+  <style>
+    /* Reset dan gaya dasar */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      scroll-behavior: smooth;
+    }
+    body {
+      font-family: 'Poppins', sans-serif;
+      background: linear-gradient(135deg, #0f172a, #1e293b);
+      color: #f1f5f9;
+      overflow-x: hidden;
+    }
+
+    /* Latar belakang bintang animasi */
+    body::before {
+      content: "";
+      position: fixed;
+      width: 100%;
+      height: 100%;
+      background: url('https://raw.githubusercontent.com/wildanjazuli19/portofolio/main/assets/bg-stars.gif') repeat;
+      opacity: 0.05;
+      z-index: -1;
+    }
+
+    header {
+      text-align: center;
+      padding: 80px 20px 40px;
+    }
+    header img {
+      width: 140px;
+      height: 140px;
+      border-radius: 50%;
+      border: 4px solid #1abc9c;
+      margin-bottom: 20px;
+    }
+    header h1 {
+      font-size: 36px;
+      color: #1abc9c;
+      text-shadow: 0 0 10px #1abc9c;
+    }
+    header h2 {
+      font-size: 20px;
+      font-weight: 300;
+      color: #94a3b8;
+    }
+
+    nav {
+      background-color: #1e293b;
+      padding: 10px 0;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+    }
+    nav ul {
+      display: flex;
+      justify-content: center;
+      list-style: none;
+      gap: 30px;
+    }
+    nav ul li a {
+      color: #f1f5f9;
+      text-decoration: none;
+      padding: 10px 18px;
+      border-radius: 30px;
+      transition: all 0.3s;
+    }
+    nav ul li a:hover {
+      background-color: #1abc9c;
+      color: #0f172a;
+    }
+
+    section {
+      padding: 60px 20px;
+      max-width: 900px;
+      margin: auto;
+      text-align: center;
+    }
+    section h2 {
+      font-size: 28px;
+      margin-bottom: 25px;
+      color: #1abc9c;
+    }
+    p, li {
+      line-height: 1.7;
+    }
+    ul {
+      text-align: left;
+      margin-top: 10px;
+    }
+
+    article {
+      background: #1e293b;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+      margin-top: 20px;
+    }
+
+    #contact form {
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+      margin-top: 20px;
+      align-items: center;
+    }
+    #contact input, #contact textarea {
+      width: 100%;
+      max-width: 600px;
+      padding: 12px;
+      border: 1px solid #334155;
+      background-color: #1e293b;
+      color: #f1f5f9;
+      border-radius: 5px;
+    }
+    #contact button {
+      padding: 12px 25px;
+      background-color: #1abc9c;
+      color: #0f172a;
+      border: none;
+      border-radius: 5px;
+      font-size: 16px;
+      cursor: pointer;
+      transition: background 0.3s ease;
+    }
+    #contact button:hover {
+      background-color: #16a085;
+    }
+
+    footer {
+      background-color: #1e293b;
+      padding: 20px;
+      color: #94a3b8;
+      text-align: center;
+      font-size: 15px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <img src="Gambar WhatsApp 2025-04-26 pukul 13.28.31_d958375f.jpg" alt="Foto Profil" />
+    <h1>Afriza Fazl Shifa Naula</h1>
+    <h2>Teknik Informatika | AI Enthusiast | Game Developer</h2>
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="#tentang">Tentang</a></li>
+      <li><a href="#pendidikan">Pendidikan</a></li>
+      <li><a href="#keahlian">Keahlian</a></li>
+      <li><a href="#proyek">Proyek</a></li>
+      <li><a href="#sertifikat">Sertifikat</a></li>
+      <li><a href="#tujuan">Tujuan</a></li>
+      <li><a href="#contact">Kontak</a></li>
+    </ul>
+  </nav>
+
+  <section id="tentang">
+    <h2>👤 Tentang Saya</h2>
+    <p>Mahasiswa antusias dalam bidang teknologi, terutama AI dan pengembangan game. Saya senang menggabungkan logika dan kreativitas untuk menciptakan solusi inovatif.</p>
+    <p>Saya percaya teknologi adalah kunci untuk masa depan yang lebih baik, dan saya ingin menjadi bagian dari perubahan itu.</p>
+  </section>
+
+  <section id="pendidikan">
+    <h2>🎓 Pendidikan</h2>
+    <p><strong>Universitas:</strong> Universitas Budi Luhur</p>
+    <p><strong>Program Studi:</strong> Teknik Informatika</p>
+    <p><strong>Tahun:</strong> 2023 – 2025</p>
+  </section>
+
+  <section id="keahlian">
+    <h2>💡 Keahlian</h2>
+    <ul>
+      <li>HTML5 & CSS3</li>
+      <li>Python, JavaScript, C++</li>
+      <li>Dasar Machine Learning</li>
+      <li>UI/UX Design</li>
+      <li>Google Workspace & MS Office</li>
+    </ul>
+  </section>
+
+  <section id="proyek">
+    <h2>🛠️ Proyek</h2>
+    <article>
+      <h3>Game AI Anti E-Commerce</h3>
+      <p>Mengembangkan konsep game dengan kecerdasan buatan untuk menyaingi sistem rekomendasi e-commerce tradisional dengan interaksi adaptif.</p>
+    </article>
+  </section>
+
+  <section id="sertifikat">
+    <h2>🏆 Sertifikat</h2>
+    <ul>
+      <li>Sertifikat Machine Learning Dasar – Dicoding, 2024</li>
+    </ul>
+  </section>
+
+  <section id="tujuan">
+    <h2>🎯 Tujuan</h2>
+    <p>Mengembangkan inovasi teknologi yang berdampak dan memberikan solusi bagi masyarakat melalui AI dan web development.</p>
+  </section>
+
+  <section id="contact">
+    <h2>📬 Kontak</h2>
+    <form>
+      <input type="text" placeholder="Nama Lengkap" required />
+      <input type="email" placeholder="Email" required />
+      <textarea rows="5" placeholder="Pesan Anda" required></textarea>
+      <button type="submit">Kirim</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Afriza Fazl Shifa Naula</p>
+  </footer>
+
+</body>
+</html>
